@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.slide-container{
+    position: relative;
+    
+    width:100%;
+   
+}
+
+
+
+.slide img{
+    margin-top: 100px;
+    margin-left: 150px;;
+
+   height:600px;
+   width:1200px;
+  
+    
+}
+
+.slide{
+    display: none;
+}
+
+.arrow{
+    font-size: 50px;
+    position:absolute;
+    font-size: 70px;
+    font-weight: 800;
+    color:white;
+    border: 2px solid lightgrey;
+    background-color:rgb(17, 10, 10);
+    
+    top: 50%;
+    
+}
+
+.next{
+    right:15%;
+}
+
+.prev{
+    left:15%
+}
+
+.arrow:hover{
+   color:aqua;
+   border-color: aqua;
+   font-size: 90px;
+   
+}
